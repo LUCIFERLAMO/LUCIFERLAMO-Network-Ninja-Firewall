@@ -28,4 +28,14 @@ Evidence: The screenshot below shows the Suricata alerts that were triggered imm
 
 <img width="885" height="825" alt="synflood_detection" src="https://github.com/user-attachments/assets/ab6c200b-d431-41ad-92b2-8bc71787c88c" />
 
+---
+
+ Defense 3: DNS Tunneling Detection & Segmentation
+
+For the final challenge, the network was segmented into a `Trusted Zone` (OPT1) and an `Untrusted Zone` (LAN). Firewall rules were created to strictly control traffic between them. An advanced Suricata rule was written to inspect allowed DNS traffic and detect signs of DNS tunneling by identifying unusually long query labels.
+
+**Evidence:** The screenshot below shows the custom Suricata alert that was triggered after simulating a DNS tunneling attack from the Untrusted Zone.
+
+<img width="820" height="490" alt="dns_tunnel_alert" src="https://github.com/user-attachments/assets/679dd241-ad36-47db-8336-00f2beb3b763" />
+
 
