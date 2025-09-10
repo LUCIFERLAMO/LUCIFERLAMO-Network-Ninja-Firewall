@@ -18,3 +18,14 @@ After: The same scan was blocked by the new firewall rule. The logs clearly show
 <img width="711" height="668" alt="portscan_before" src="https://github.com/user-attachments/assets/31e92267-0546-4138-a348-d02e00f2385e" />
 <img width="573" height="225" alt="Screenshot 2025-09-10 204223" src="https://github.com/user-attachments/assets/c4a36ad8-af76-4e4f-8b01-2014eef62f03" />
 
+---
+
+## Defense 2: SYN Flood / DDoS Detection
+
+I installed and configured the Suricata Intrusion Detection System (IDS) on pfSense to perform deeper packet inspection. I wrote a custom rule to detect a potential SYN flood attack by counting a high number of SYN packets from a single source over a short period.
+
+Evidence: The screenshot below shows the Suricata alerts that were triggered immediately after launching a SYN flood attack with `hping3` from the Kali machine.
+
+<img width="885" height="825" alt="synflood_detection" src="https://github.com/user-attachments/assets/ab6c200b-d431-41ad-92b2-8bc71787c88c" />
+
+
