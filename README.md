@@ -39,3 +39,8 @@ For the final challenge, the network was segmented into a `Trusted Zone` (OPT1) 
 <img width="820" height="490" alt="dns_tunnel_alert" src="https://github.com/user-attachments/assets/679dd241-ad36-47db-8336-00f2beb3b763" />
 
 
+---
+## Presentation & Demo
+
+* [Link to 5-Slide Presentation](paste-your-presentation-link-here)
+* [Link to 30-Second Video Demo]  https://youtu.be/PY-XknmNSMY
