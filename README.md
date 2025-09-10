@@ -42,5 +42,5 @@ For the final challenge, the network was segmented into a `Trusted Zone` (OPT1) 
 ---
 ## Presentation & Demo
 
-* [Link to 5-Slide Presentation](paste-your-presentation-link-here)
+* [Link to 5-Slide Presentation] https://docs.google.com/presentation/d/1OLHOqbBqd6a3kt7oiNib2IlKKa8r0vQYw2iWPyVzgDQ/edit?usp=sharing
 * [Link to 30-Second Video Demo]  https://youtu.be/PY-XknmNSMY
